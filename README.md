@@ -34,3 +34,28 @@ The system follows a modular, production-style architecture:
 ---
 
 ## 📁 Project Structure
+
+backend/
+├── src/
+│ ├── api.py # FastAPI entrypoint
+│ ├── chatbot.py # Agentic AI controller
+│ ├── pipeline.py # RAG orchestration pipeline
+│ ├── engine.py # Core reasoning engine
+│ ├── search.py # Hybrid search logic
+│ ├── hybrid_search.py # Semantic + keyword fusion
+│ ├── embedding.py # Azure OpenAI embeddings
+│ ├── vector.py # Vector DB interface
+│ ├── chunking.py # Document preprocessing
+│ ├── prompt.py # Prompt engineering layer
+│ ├── cache.py # Response caching system
+│ ├── re_ranking.py # Result ranking optimization
+│ ├── evaluation.py # Evaluation pipeline
+│ ├── create_index.py # Azure search indexing
+│ ├── config.py # Configuration management
+│
+├── notebooks/
+│ └── cleaning.ipynb # Data preprocessing
+│
+├── Dockerfile
+├── docker-compose.yml
+├── .gitignore
