@@ -1,0 +1,73 @@
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Python Cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Frontend ONLY (ignore frontend)
+# =========================
+frontend/
+
+# =========================
+# Documents / RAG Data
+# =========================
+documents/
+docs/
+data/
+datasets/
+uploads/
+
+*.pdf
+*.docx
+*.doc
+*.csv
+*.txt
+*.xlsx
+*.json
+
+# =========================
+# Vector DB / Embeddings
+# =========================
+chroma/
+chroma_db/
+faiss/
+faiss_index/
+vectorstore/
+embeddings/
+
+# =========================
+# Model files
+# =========================
+models/
+*.bin
+*.pt
+*.pth
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
