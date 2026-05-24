@@ -1,4 +1,4 @@
-# 🧠 Enterprise RAG + Agentic AI System (Azure OpenAI + Cognitive Search)
+# Enterprise RAG + Agentic AI System (Azure OpenAI + Cognitive Search)
 
 A **production-style Retrieval-Augmented Generation (RAG) + Agentic AI system** built using Azure OpenAI, Azure Cognitive Search, and scalable backend architecture patterns.
 
@@ -6,19 +6,19 @@ This project demonstrates a **real-world AI engineering system design** includin
 
 ---
 
-## 🚀 Key Highlights
+## Key Highlights
 
-- 🧠 Azure OpenAI powered LLM reasoning
-- 🔎 Azure Cognitive Search (Hybrid + Vector search indexing)
-- 🤖 Agentic AI orchestration layer (multi-step reasoning)
-- ⚡ Async + batching pipeline for performance optimization
-- 🧩 Context-aware caching system (latency + cost reduction)
-- 🐳 Fully Dockerized backend deployment
-- 🔐 Enterprise-grade security design (RBAC + IAM + Key Vault)
+- Azure OpenAI powered LLM reasoning
+-  Azure Cognitive Search (Hybrid + Vector search indexing)
+-  Agentic AI orchestration layer (multi-step reasoning)
+-  Async + batching pipeline for performance optimization
+-  Context-aware caching system (latency + cost reduction)
+-  Fully Dockerized backend deployment
+-  Enterprise-grade security design (RBAC + IAM + Key Vault)
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a modular, production-style architecture:
 
